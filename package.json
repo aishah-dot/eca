@@ -47,11 +47,11 @@
 		"prepare": "husky"
 	},
 	"dependencies": {
-		"@aws-sdk/client-s3": "^3.1103.0",
-		"@aws-sdk/s3-presigned-post": "^3.1103.0",
-		"@aws-sdk/s3-request-presigner": "^3.1103.0",
+		"@aws-sdk/client-s3": "^3.1106.0",
+		"@aws-sdk/s3-presigned-post": "^3.1106.0",
+		"@aws-sdk/s3-request-presigner": "^3.1106.0",
 		"@tanstack/react-form": "^1.33.3",
-		"@tanstack/react-table": "^9.0.0",
+		"@tanstack/react-table": "^9.1.0",
 		"@use-forever/contracts": "workspace:*",
 		"@use-forever/env": "workspace:*",
 		"@use-forever/utils": "workspace:*",
@@ -59,17 +59,17 @@
 		"files-sdk": "^2.2.3",
 		"libphonenumber-js": "^1.13.10",
 		"llamaindex": "^0.12.1",
-		"nuqs": "^2.9.4",
+		"nuqs": "^2.9.5",
 		"ts-dedent": "^2.3.0",
 		"zod": "^4.4.3"
 	},
 	"devDependencies": {
-		"@types/node": "^26.1.2",
+		"@types/node": "^26.2.0",
 		"@use-forever/config": "workspace:*",
 		"husky": "^9.1.7",
 		"oxfmt": "^0.62.0",
 		"oxlint": "^1.77.0",
-		"turbo": "^2.10.8",
+		"turbo": "^2.10.9",
 		"typescript": "^7.0.2",
 		"ultracite": "7.10.1"
 	},
