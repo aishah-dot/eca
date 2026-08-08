@@ -1,5 +1,5 @@
 {
-	"name": "@use-forever/email",
+	"name": "@aishah-dot/email",
 	"type": "module",
 	"exports": {
 		".": {
@@ -10,11 +10,11 @@
 		"check-types": "tsc --noEmit"
 	},
 	"dependencies": {
-		"@opencoredev/email-sdk": "^1.1.0",
-		"@use-forever/env": "workspace:*"
+		"@aishah-dot/env": "workspace:*",
+		"@opencoredev/email-sdk": "^1.1.0"
 	},
 	"devDependencies": {
-		"@use-forever/config": "workspace:*",
+		"@aishah-dot/config": "workspace:*",
 		"typescript": "catalog:"
 	}
 }

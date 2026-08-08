@@ -1,5 +1,5 @@
-import { auth } from "@use-forever/auth";
-import { ensureDefaultWorkspaceForUser } from "@use-forever/api/services/workspaces";
+import { auth } from "@aishah-dot/auth";
+import { ensureDefaultWorkspaceForUser } from "@aishah-dot/api/services/workspaces";
 import type { AuthFn } from "eve/channels/auth";
 
 export function betterAuth(): AuthFn<Request> {
@@ -21,7 +21,7 @@ export function betterAuth(): AuthFn<Request> {
 				tenantId: workspace.id,
 			},
 			authenticator: "better-auth",
-			issuer: "use-forever-auth",
+			issuer: "aishah-dot-auth",
 			principalId: session.user.id,
 			principalType: "user",
 		};

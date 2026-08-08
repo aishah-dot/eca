@@ -1,9 +1,9 @@
 "use client";
 
-import { Button } from "@use-forever/ui/components/button";
-import { Input } from "@use-forever/ui/components/input";
-import { Textarea } from "@use-forever/ui/components/textarea";
-import { cn } from "@use-forever/ui/lib/utils";
+import { Button } from "@aishah-dot/ui/components/button";
+import { Input } from "@aishah-dot/ui/components/input";
+import { Textarea } from "@aishah-dot/ui/components/textarea";
+import { cn } from "@aishah-dot/ui/lib/utils";
 import { cva, type VariantProps } from "class-variance-authority";
 import type { ComponentProps } from "react";
 

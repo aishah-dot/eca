@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter } from "next/font/google";
 
 import "../index.css";
-import { cn } from "@use-forever/ui/lib/utils";
+import { cn } from "@aishah-dot/ui/lib/utils";
 import OfflineBanner from "@/components/offline-banner";
 import Providers from "@/components/providers";
 

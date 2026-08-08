@@ -1,6 +1,6 @@
 "use client";
 
-import { cn } from "@use-forever/ui/lib/utils";
+import { cn } from "@aishah-dot/ui/lib/utils";
 import type { MotionProps } from "motion/react";
 import { motion } from "motion/react";
 import type { CSSProperties, ComponentType, ElementType, JSX } from "react";

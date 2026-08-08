@@ -15,8 +15,8 @@ import {
 	AvatarFallback,
 	AvatarGroup,
 	AvatarGroupCount,
-} from "@use-forever/ui/components/avatar";
-import { Button } from "@use-forever/ui/components/button";
+} from "@aishah-dot/ui/components/avatar";
+import { Button } from "@aishah-dot/ui/components/button";
 import {
 	DropdownMenu,
 	DropdownMenuContent,
@@ -25,15 +25,15 @@ import {
 	DropdownMenuLabel,
 	DropdownMenuSeparator,
 	DropdownMenuTrigger,
-} from "@use-forever/ui/components/dropdown-menu";
-import { TelegramIcon, TwilioIcon } from "@use-forever/ui/components/socials";
-import { Spinner } from "@use-forever/ui/components/spinner";
+} from "@aishah-dot/ui/components/dropdown-menu";
+import { TelegramIcon, TwilioIcon } from "@aishah-dot/ui/components/socials";
+import { Spinner } from "@aishah-dot/ui/components/spinner";
 import {
 	Tooltip,
 	TooltipContent,
 	TooltipProvider,
 	TooltipTrigger,
-} from "@use-forever/ui/components/tooltip";
+} from "@aishah-dot/ui/components/tooltip";
 import { type CustomerChannel, CUSTOMER_CHANNEL_LABEL } from "./channels";
 
 export type CustomerRow = {

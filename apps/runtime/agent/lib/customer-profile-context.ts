@@ -1,5 +1,5 @@
 import type { ToolContext } from "eve/tools";
-import { getWorkspaceById } from "@use-forever/api/services/workspaces";
+import { getWorkspaceById } from "@aishah-dot/api/services/workspaces";
 import { requireTenantCaller } from "./tenant";
 
 type SupportedChannel = "telegram" | "twilio-sms" | "twilio-voice";

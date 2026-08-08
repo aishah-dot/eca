@@ -1,4 +1,4 @@
-import { getIntegrationStatus } from "@use-forever/api/services/integrations";
+import { getIntegrationStatus } from "@aishah-dot/api/services/integrations";
 import { defineDynamic, defineInstructions } from "eve/instructions";
 import { requireTenantCaller } from "../lib/tenant";
 

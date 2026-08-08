@@ -2,17 +2,17 @@
 
 import { useForm } from "@tanstack/react-form";
 import { useMutation } from "@tanstack/react-query";
-import { createCustomerInputSchema, type CreateCustomerInput } from "@use-forever/contracts";
+import { createCustomerInputSchema, type CreateCustomerInput } from "@aishah-dot/contracts";
 import { PhoneIcon, UserRound } from "lucide-react";
-import { Button } from "@use-forever/ui/components/button";
-import { Checkbox } from "@use-forever/ui/components/checkbox";
-import { Field, FieldError, FieldGroup, FieldLabel } from "@use-forever/ui/components/field";
+import { Button } from "@aishah-dot/ui/components/button";
+import { Checkbox } from "@aishah-dot/ui/components/checkbox";
+import { Field, FieldError, FieldGroup, FieldLabel } from "@aishah-dot/ui/components/field";
 import {
 	InputGroup,
 	InputGroupAddon,
 	InputGroupInput,
 	InputGroupText,
-} from "@use-forever/ui/components/input-group";
+} from "@aishah-dot/ui/components/input-group";
 import {
 	Sheet,
 	SheetClose,
@@ -22,9 +22,9 @@ import {
 	SheetHeader,
 	SheetTitle,
 	SheetTrigger,
-} from "@use-forever/ui/components/sheet";
-import { Spinner } from "@use-forever/ui/components/spinner";
-import { formatPhoneInput } from "@use-forever/utils";
+} from "@aishah-dot/ui/components/sheet";
+import { Spinner } from "@aishah-dot/ui/components/spinner";
+import { formatPhoneInput } from "@aishah-dot/utils";
 import { useState } from "react";
 import { toast } from "sonner";
 

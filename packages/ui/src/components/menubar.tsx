@@ -16,9 +16,9 @@ import {
 	DropdownMenuSubContent,
 	DropdownMenuSubTrigger,
 	DropdownMenuTrigger,
-} from "@use-forever/ui/components/dropdown-menu";
+} from "@aishah-dot/ui/components/dropdown-menu";
 
-import { cn } from "@use-forever/ui/lib/utils";
+import { cn } from "@aishah-dot/ui/lib/utils";
 import { CheckIcon } from "lucide-react";
 import type * as React from "react";
 

@@ -1,5 +1,5 @@
 {
-	"name": "use-forever",
+	"name": "aishah-dot",
 	"private": true,
 	"workspaces": {
 		"packages": [
@@ -33,11 +33,11 @@
 		"check-types": "turbo run check-types",
 		"dev:web": "turbo run dev -F web",
 		"dev:docs": "turbo run dev -F docs",
-		"db:push": "turbo run db:push -F @use-forever/db",
-		"db:studio": "turbo run db:studio -F @use-forever/db",
-		"db:generate": "turbo run db:generate -F @use-forever/db",
-		"db:migrate": "turbo run db:migrate -F @use-forever/db",
-		"db:seed": "turbo run db:seed -F @use-forever/db",
+		"db:push": "turbo run db:push -F @aishah-dot/db",
+		"db:studio": "turbo run db:studio -F @aishah-dot/db",
+		"db:generate": "turbo run db:generate -F @aishah-dot/db",
+		"db:migrate": "turbo run db:migrate -F @aishah-dot/db",
+		"db:seed": "turbo run db:seed -F @aishah-dot/db",
 		"lint": "oxlint apps packages",
 		"lint:fix": "oxlint apps packages --fix",
 		"format": "oxfmt apps packages",
@@ -47,14 +47,14 @@
 		"prepare": "husky"
 	},
 	"dependencies": {
+		"@aishah-dot/contracts": "workspace:*",
+		"@aishah-dot/env": "workspace:*",
+		"@aishah-dot/utils": "workspace:*",
 		"@aws-sdk/client-s3": "^3.1106.0",
 		"@aws-sdk/s3-presigned-post": "^3.1106.0",
 		"@aws-sdk/s3-request-presigner": "^3.1106.0",
 		"@tanstack/react-form": "^1.33.3",
 		"@tanstack/react-table": "^9.1.0",
-		"@use-forever/contracts": "workspace:*",
-		"@use-forever/env": "workspace:*",
-		"@use-forever/utils": "workspace:*",
 		"dotenv": "^17.4.2",
 		"files-sdk": "^2.2.3",
 		"libphonenumber-js": "^1.13.10",
@@ -64,8 +64,8 @@
 		"zod": "^4.4.3"
 	},
 	"devDependencies": {
+		"@aishah-dot/config": "workspace:*",
 		"@types/node": "^26.2.0",
-		"@use-forever/config": "workspace:*",
 		"husky": "^9.1.7",
 		"oxfmt": "^0.62.0",
 		"oxlint": "^1.77.0",

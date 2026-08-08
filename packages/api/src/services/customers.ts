@@ -1,5 +1,5 @@
-import type { CreateCustomerInput } from "@use-forever/contracts";
-import prisma from "@use-forever/db";
+import type { CreateCustomerInput } from "@aishah-dot/contracts";
+import prisma from "@aishah-dot/db";
 import { parsePhoneNumberFromString } from "libphonenumber-js";
 import { createHash } from "node:crypto";
 

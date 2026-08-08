@@ -1,5 +1,5 @@
 {
-	"name": "@use-forever/api",
+	"name": "@aishah-dot/api",
 	"type": "module",
 	"exports": {
 		".": {
@@ -11,21 +11,21 @@
 	},
 	"scripts": {},
 	"dependencies": {
+		"@aishah-dot/auth": "workspace:*",
+		"@aishah-dot/contracts": "workspace:*",
+		"@aishah-dot/db": "workspace:*",
+		"@aishah-dot/env": "workspace:*",
+		"@aishah-dot/storage": "workspace:*",
 		"@firecrawl/anydoc": "^0.1.5",
 		"@trpc/client": "catalog:",
 		"@trpc/server": "catalog:",
-		"@use-forever/auth": "workspace:*",
-		"@use-forever/contracts": "workspace:*",
-		"@use-forever/db": "workspace:*",
-		"@use-forever/env": "workspace:*",
-		"@use-forever/storage": "workspace:*",
 		"ai": "^7.0.52",
 		"dotenv": "catalog:",
 		"next": "catalog:",
 		"zod": "catalog:"
 	},
 	"devDependencies": {
-		"@use-forever/config": "workspace:*",
+		"@aishah-dot/config": "workspace:*",
 		"typescript": "catalog:"
 	}
 }

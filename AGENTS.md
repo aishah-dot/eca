@@ -143,7 +143,7 @@ Most formatting and common issues are automatically fixed. Run `bun run fix` bef
 For protected entity routers, follow this structure by default:
 
 - Procedure names: `list`, `byId`, `create`, `update`, `delete`
-- Always use `.input(...)` and `.output(...)` schemas from `@use-forever/contracts`
+- Always use `.input(...)` and `.output(...)` schemas from `@aishah-dot/contracts`
 - Define a shared Prisma select object at the top:
   - `const <entity>Select = { ... } as const`
 - Define a shared ownership helper:

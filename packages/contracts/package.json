@@ -1,5 +1,5 @@
 {
-	"name": "@use-forever/contracts",
+	"name": "@aishah-dot/contracts",
 	"type": "module",
 	"exports": {
 		".": {
@@ -13,7 +13,7 @@
 		"zod": "catalog:"
 	},
 	"devDependencies": {
-		"@use-forever/config": "workspace:*",
+		"@aishah-dot/config": "workspace:*",
 		"typescript": "catalog:"
 	}
 }

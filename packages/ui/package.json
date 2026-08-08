@@ -1,5 +1,5 @@
 {
-	"name": "@use-forever/ui",
+	"name": "@aishah-dot/ui",
 	"version": "0.0.0",
 	"private": true,
 	"type": "module",
@@ -47,10 +47,10 @@
 		"use-stick-to-bottom": "1.1.6"
 	},
 	"devDependencies": {
+		"@aishah-dot/config": "workspace:*",
 		"@tailwindcss/postcss": "catalog:",
 		"@types/react": "catalog:",
 		"@types/react-dom": "catalog:",
-		"@use-forever/config": "workspace:*",
 		"tailwindcss": "catalog:",
 		"typescript": "catalog:"
 	}

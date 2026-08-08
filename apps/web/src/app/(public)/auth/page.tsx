@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { Button, buttonVariants } from "@use-forever/ui/components/button";
-import { GoogleIcon } from "@use-forever/ui/components/socials";
+import { Button, buttonVariants } from "@aishah-dot/ui/components/button";
+import { GoogleIcon } from "@aishah-dot/ui/components/socials";
 import { useTransition } from "react";
 
 import { signIn, signOut, useSession } from "@/lib/auth-client";

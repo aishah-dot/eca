@@ -1,13 +1,13 @@
 {
 	"openapi": "3.1.0",
 	"info": {
-		"title": "use-forever API",
-		"description": "API reference for use-forever customers and integrations.",
+		"title": "aishah-dot API",
+		"description": "API reference for aishah-dot customers and integrations.",
 		"version": "1.0.0"
 	},
 	"servers": [
 		{
-			"url": "https://api.hackathon.space",
+			"url": "https://api.web-eca.vercel.app",
 			"description": "Production"
 		}
 	],

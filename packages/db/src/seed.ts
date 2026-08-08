@@ -39,7 +39,7 @@ async function getUsersForSeeding() {
 		data: {
 			id: "seed-demo-user",
 			name: "Seed Demo User",
-			email: "seed-demo@use-forever.local",
+			email: "seed-demo@aishah-dot.local",
 			emailVerified: true,
 		},
 		select: {

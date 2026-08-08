@@ -1,7 +1,7 @@
 import path from "node:path";
 
 import { defineConfig } from "prisma/config";
-import { env } from "@use-forever/env/server";
+import { env } from "@aishah-dot/env/server";
 
 export default defineConfig({
 	datasource: {

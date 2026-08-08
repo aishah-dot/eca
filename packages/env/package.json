@@ -1,5 +1,5 @@
 {
-	"name": "@use-forever/env",
+	"name": "@aishah-dot/env",
 	"version": "0.0.0",
 	"private": true,
 	"type": "module",
@@ -14,8 +14,8 @@
 		"zod": "catalog:"
 	},
 	"devDependencies": {
+		"@aishah-dot/config": "workspace:*",
 		"@types/node": "^26.1.2",
-		"@use-forever/config": "workspace:*",
 		"typescript": "catalog:"
 	}
 }

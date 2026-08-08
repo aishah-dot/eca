@@ -1,5 +1,5 @@
-import { workspaceSchema } from "@use-forever/contracts";
-import prisma from "@use-forever/db";
+import { workspaceSchema } from "@aishah-dot/contracts";
+import prisma from "@aishah-dot/db";
 import { tenantProcedure, router } from "../../index";
 import { getIntegrationStatus } from "../../services/integrations";
 

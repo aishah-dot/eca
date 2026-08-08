@@ -5,7 +5,7 @@ import { DataTable } from "@/components/knowledge/data-table";
 import type { KnowledgeRow } from "@/components/knowledge/columns";
 import { PageSection } from "@/components/general/page-section";
 import { trpc } from "@/utils/trpc";
-import { formatBytes, formatDate } from "@use-forever/utils";
+import { formatBytes, formatDate } from "@aishah-dot/utils";
 
 function formatLastSynced(value: Date | string | null) {
 	if (!value) {

@@ -1,7 +1,7 @@
 import {
 	ensureChannelCustomerForUser,
 	getChannelCustomerProfileStatus,
-} from "@use-forever/api/services/customers";
+} from "@aishah-dot/api/services/customers";
 import { defineTool } from "eve/tools";
 import { z } from "zod";
 import { resolveCustomerProfileContext } from "../lib/customer-profile-context";

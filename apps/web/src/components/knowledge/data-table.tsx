@@ -14,23 +14,23 @@ import {
 	AlertDialogFooter,
 	AlertDialogHeader,
 	AlertDialogTitle,
-} from "@use-forever/ui/components/alert-dialog";
-import { Button } from "@use-forever/ui/components/button";
-import { Empty, EmptyDescription, EmptyHeader, EmptyTitle } from "@use-forever/ui/components/empty";
+} from "@aishah-dot/ui/components/alert-dialog";
+import { Button } from "@aishah-dot/ui/components/button";
+import { Empty, EmptyDescription, EmptyHeader, EmptyTitle } from "@aishah-dot/ui/components/empty";
 import {
 	InputGroup,
 	InputGroupAddon,
 	InputGroupInput,
 	InputGroupText,
-} from "@use-forever/ui/components/input-group";
+} from "@aishah-dot/ui/components/input-group";
 import {
 	Select,
 	SelectContent,
 	SelectItem,
 	SelectTrigger,
 	SelectValue,
-} from "@use-forever/ui/components/select";
-import { Skeleton } from "@use-forever/ui/components/skeleton";
+} from "@aishah-dot/ui/components/select";
+import { Skeleton } from "@aishah-dot/ui/components/skeleton";
 import {
 	Table,
 	TableBody,
@@ -38,7 +38,7 @@ import {
 	TableHead,
 	TableHeader,
 	TableRow,
-} from "@use-forever/ui/components/table";
+} from "@aishah-dot/ui/components/table";
 import { toast } from "sonner";
 
 import { AddSheet } from "./add-sheet";

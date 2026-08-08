@@ -5,8 +5,8 @@ import {
 	customersSchema,
 	getCustomerInputSchema,
 	updateCustomerInputSchema,
-} from "@use-forever/contracts";
-import prisma from "@use-forever/db";
+} from "@aishah-dot/contracts";
+import prisma from "@aishah-dot/db";
 import { TRPCError } from "@trpc/server";
 import {
 	createCustomerForUser,

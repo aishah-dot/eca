@@ -1,7 +1,7 @@
 "use client";
 
-import { Button, buttonVariants } from "@use-forever/ui/components/button";
-import { cn } from "@use-forever/ui/lib/utils";
+import { Button, buttonVariants } from "@aishah-dot/ui/components/button";
+import { cn } from "@aishah-dot/ui/lib/utils";
 import { ChevronDownIcon, ChevronLeftIcon, ChevronRightIcon } from "lucide-react";
 import { type ComponentProps, type Ref, useEffect, useRef } from "react";
 import { type DayButton, DayPicker, getDefaultClassNames } from "react-day-picker";

@@ -2,8 +2,8 @@
 
 import { Toggle as TogglePrimitive } from "@base-ui/react/toggle";
 import { ToggleGroup as ToggleGroupPrimitive } from "@base-ui/react/toggle-group";
-import { toggleVariants } from "@use-forever/ui/components/toggle";
-import { cn } from "@use-forever/ui/lib/utils";
+import { toggleVariants } from "@aishah-dot/ui/components/toggle";
+import { cn } from "@aishah-dot/ui/lib/utils";
 import type { VariantProps } from "class-variance-authority";
 import { type CSSProperties, createContext, useContext } from "react";
 

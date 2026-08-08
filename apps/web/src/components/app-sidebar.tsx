@@ -1,6 +1,6 @@
 "use client";
 
-import { Avatar, AvatarFallback, AvatarImage } from "@use-forever/ui/components/avatar";
+import { Avatar, AvatarFallback, AvatarImage } from "@aishah-dot/ui/components/avatar";
 import {
 	DropdownMenu,
 	DropdownMenuContent,
@@ -9,7 +9,7 @@ import {
 	DropdownMenuLabel,
 	DropdownMenuSeparator,
 	DropdownMenuTrigger,
-} from "@use-forever/ui/components/dropdown-menu";
+} from "@aishah-dot/ui/components/dropdown-menu";
 import {
 	Sidebar,
 	SidebarContent,
@@ -21,7 +21,7 @@ import {
 	SidebarMenu,
 	SidebarMenuButton,
 	SidebarMenuItem,
-} from "@use-forever/ui/components/sidebar";
+} from "@aishah-dot/ui/components/sidebar";
 import {
 	Astroid,
 	BookOpenIcon,
@@ -36,7 +36,7 @@ import { usePathname } from "next/navigation";
 import { useTransition } from "react";
 
 import { signOut, useSession } from "@/lib/auth-client";
-import { Spinner } from "@use-forever/ui/components/spinner";
+import { Spinner } from "@aishah-dot/ui/components/spinner";
 
 export const appNavConfig = [
 	{

@@ -1,12 +1,12 @@
 "use client";
 
-import { Badge } from "@use-forever/ui/components/badge";
+import { Badge } from "@aishah-dot/ui/components/badge";
 import {
 	Collapsible,
 	CollapsibleContent,
 	CollapsibleTrigger,
-} from "@use-forever/ui/components/collapsible";
-import { cn } from "@use-forever/ui/lib/utils";
+} from "@aishah-dot/ui/components/collapsible";
+import { cn } from "@aishah-dot/ui/lib/utils";
 import type { DynamicToolUIPart, ToolUIPart } from "ai";
 import {
 	CheckCircleIcon,

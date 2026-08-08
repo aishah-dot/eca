@@ -1,1 +1,1 @@
-export { auth, toNextJsHandler } from "@use-forever/auth";
+export { auth, toNextJsHandler } from "@aishah-dot/auth";

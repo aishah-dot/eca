@@ -1,5 +1,5 @@
 {
-	"name": "@use-forever/next-config",
+	"name": "@aishah-dot/next-config",
 	"type": "module",
 	"exports": {
 		".": {
@@ -13,7 +13,7 @@
 		"next": "catalog:"
 	},
 	"devDependencies": {
-		"@use-forever/config": "workspace:*",
+		"@aishah-dot/config": "workspace:*",
 		"typescript": "catalog:"
 	}
 }

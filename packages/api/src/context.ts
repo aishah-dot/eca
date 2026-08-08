@@ -1,5 +1,5 @@
 import type { NextRequest } from "next/server";
-import { auth } from "@use-forever/auth";
+import { auth } from "@aishah-dot/auth";
 
 export async function createContext(req: NextRequest) {
 	const session = await auth.api.getSession({

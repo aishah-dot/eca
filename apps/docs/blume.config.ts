@@ -1,8 +1,8 @@
 import { defineConfig } from "blume";
 
 export default defineConfig({
-	title: "use-forever Docs",
-	description: "Documentation for use-forever.",
+	title: "Aishah Dot AI Docs",
+	description: "Documentation for Aishah Dot AI.",
 	navigation: {
 		tabs: [
 			{ label: "Docs", path: "/" },

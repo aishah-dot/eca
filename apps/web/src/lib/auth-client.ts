@@ -1,1 +1,1 @@
-export { authClient, signIn, signOut, useSession } from "@use-forever/auth/client";
+export { authClient, signIn, signOut, useSession } from "@aishah-dot/auth/client";

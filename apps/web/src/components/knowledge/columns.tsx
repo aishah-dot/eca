@@ -10,8 +10,8 @@ import {
 	type ColumnDef,
 } from "@tanstack/react-table";
 import { MoreHorizontalIcon } from "lucide-react";
-import { Badge } from "@use-forever/ui/components/badge";
-import { Button } from "@use-forever/ui/components/button";
+import { Badge } from "@aishah-dot/ui/components/badge";
+import { Button } from "@aishah-dot/ui/components/button";
 import {
 	DropdownMenu,
 	DropdownMenuContent,
@@ -20,7 +20,7 @@ import {
 	DropdownMenuLabel,
 	DropdownMenuSeparator,
 	DropdownMenuTrigger,
-} from "@use-forever/ui/components/dropdown-menu";
+} from "@aishah-dot/ui/components/dropdown-menu";
 
 export type KnowledgeRow = {
 	id: string;

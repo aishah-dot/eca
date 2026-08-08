@@ -1,14 +1,14 @@
 "use client";
 
-import { Button } from "@use-forever/ui/components/button";
+import { Button } from "@aishah-dot/ui/components/button";
 import {
 	Select,
 	SelectContent,
 	SelectItem,
 	SelectTrigger,
 	SelectValue,
-} from "@use-forever/ui/components/select";
-import { cn } from "@use-forever/ui/lib/utils";
+} from "@aishah-dot/ui/components/select";
+import { cn } from "@aishah-dot/ui/lib/utils";
 import { CheckIcon, CopyIcon } from "lucide-react";
 import type { ComponentProps, CSSProperties, HTMLAttributes } from "react";
 import {

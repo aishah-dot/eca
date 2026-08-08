@@ -1,4 +1,4 @@
-import { listKnowledgeSourcesForUser } from "@use-forever/api/services/knowledge";
+import { listKnowledgeSourcesForUser } from "@aishah-dot/api/services/knowledge";
 import { defineTool } from "eve/tools";
 import { z } from "zod";
 import { resolveKnowledgeOwnerUserId } from "../lib/knowledge";

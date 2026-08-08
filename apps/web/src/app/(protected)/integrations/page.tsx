@@ -5,8 +5,8 @@ import { PageSection } from "@/components/general/page-section";
 import { TelegramIntegrationCard } from "@/components/integrations/telegram";
 import { TwilioIntegrationCard } from "@/components/integrations/twilio";
 import { trpc } from "@/utils/trpc";
-import { Card, CardContent, CardHeader } from "@use-forever/ui/components/card";
-import { Skeleton } from "@use-forever/ui/components/skeleton";
+import { Card, CardContent, CardHeader } from "@aishah-dot/ui/components/card";
+import { Skeleton } from "@aishah-dot/ui/components/skeleton";
 
 export default function IntegrationsPage() {
 	const { data, isLoading } = useQuery(trpc.integrations.get.queryOptions());

@@ -4,16 +4,16 @@ import { useMutation } from "@tanstack/react-query";
 import { useState } from "react";
 import { toast } from "sonner";
 import { queryClient, trpc } from "@/utils/trpc";
-import { Button } from "@use-forever/ui/components/button";
+import { Button } from "@aishah-dot/ui/components/button";
 import {
 	Card,
 	CardAction,
 	CardContent,
 	CardHeader,
 	CardTitle,
-} from "@use-forever/ui/components/card";
-import { Field, FieldGroup, FieldLabel } from "@use-forever/ui/components/field";
-import { Input } from "@use-forever/ui/components/input";
+} from "@aishah-dot/ui/components/card";
+import { Field, FieldGroup, FieldLabel } from "@aishah-dot/ui/components/field";
+import { Input } from "@aishah-dot/ui/components/input";
 import {
 	Sheet,
 	SheetContent,
@@ -22,9 +22,9 @@ import {
 	SheetHeader,
 	SheetTitle,
 	SheetTrigger,
-} from "@use-forever/ui/components/sheet";
-import { TelegramIcon } from "@use-forever/ui/components/socials";
-import { Spinner } from "@use-forever/ui/components/spinner";
+} from "@aishah-dot/ui/components/sheet";
+import { TelegramIcon } from "@aishah-dot/ui/components/socials";
+import { Spinner } from "@aishah-dot/ui/components/spinner";
 
 type TelegramIntegrationCardProps = {
 	updatedAt?: string | null;

@@ -1,7 +1,7 @@
 "use client";
 
-import { Button } from "@use-forever/ui/components/button";
-import { cn } from "@use-forever/ui/lib/utils";
+import { Button } from "@aishah-dot/ui/components/button";
+import { cn } from "@aishah-dot/ui/lib/utils";
 import type { UIMessage } from "ai";
 import { ArrowDownIcon, DownloadIcon } from "lucide-react";
 import type { ComponentProps, ReactNode } from "react";

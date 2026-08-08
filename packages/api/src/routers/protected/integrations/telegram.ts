@@ -1,5 +1,5 @@
-import { upsertTelegramIntegrationInputSchema, workspaceSchema } from "@use-forever/contracts";
-import prisma from "@use-forever/db";
+import { upsertTelegramIntegrationInputSchema, workspaceSchema } from "@aishah-dot/contracts";
+import prisma from "@aishah-dot/db";
 import { tenantProcedure } from "../../../index";
 import {
 	deleteIntegration,

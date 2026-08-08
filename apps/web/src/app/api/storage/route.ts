@@ -1,4 +1,4 @@
-import { getStorageClient } from "@use-forever/storage";
+import { getStorageClient } from "@aishah-dot/storage";
 
 function sanitizeFileName(fileName: string) {
 	const sanitized = fileName

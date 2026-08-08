@@ -10,9 +10,9 @@
         "@aws-sdk/s3-request-presigner": "^3.1103.0",
         "@tanstack/react-form": "^1.33.3",
         "@tanstack/react-table": "^9.0.0",
-        "@use-forever/contracts": "workspace:*",
-        "@use-forever/env": "workspace:*",
-        "@use-forever/utils": "workspace:*",
+        "@aishah-dot/contracts": "workspace:*",
+        "@aishah-dot/env": "workspace:*",
+        "@aishah-dot/utils": "workspace:*",
         "dotenv": "^17.4.2",
         "files-sdk": "^2.2.3",
         "libphonenumber-js": "^1.13.10",
@@ -23,7 +23,7 @@
       },
       "devDependencies": {
         "@types/node": "^26.1.2",
-        "@use-forever/config": "workspace:*",
+        "@aishah-dot/config": "workspace:*",
         "husky": "^9.1.7",
         "oxfmt": "^0.62.0",
         "oxlint": "^1.77.0",
@@ -35,7 +35,7 @@
     "apps/docs": {
       "name": "docs",
       "dependencies": {
-        "@use-forever/env": "workspace:*",
+        "@aishah-dot/env": "workspace:*",
         "blume": "^1.3.1",
       },
     },
@@ -49,9 +49,9 @@
         "@chat-adapter/whatsapp": "^4.36.0",
         "@resend/chat-sdk-adapter": "^0.2.2",
         "@upstash/agentkit-eve-extension": "^0.4.0",
-        "@use-forever/api": "workspace:*",
-        "@use-forever/auth": "workspace:*",
-        "@use-forever/contracts": "workspace:*",
+        "@aishah-dot/api": "workspace:*",
+        "@aishah-dot/auth": "workspace:*",
+        "@aishah-dot/contracts": "workspace:*",
         "@vercel/connect": ">=0.6.0",
         "chat": "^4.36.0",
         "eve": "^0.30.6",
@@ -73,13 +73,13 @@
         "@trpc/client": "catalog:",
         "@trpc/server": "catalog:",
         "@trpc/tanstack-react-query": "^11.18.0",
-        "@use-forever/api": "workspace:*",
-        "@use-forever/auth": "workspace:*",
-        "@use-forever/db": "workspace:*",
-        "@use-forever/env": "workspace:*",
-        "@use-forever/next-config": "workspace:*",
-        "@use-forever/storage": "workspace:*",
-        "@use-forever/ui": "workspace:*",
+        "@aishah-dot/api": "workspace:*",
+        "@aishah-dot/auth": "workspace:*",
+        "@aishah-dot/db": "workspace:*",
+        "@aishah-dot/env": "workspace:*",
+        "@aishah-dot/next-config": "workspace:*",
+        "@aishah-dot/storage": "workspace:*",
+        "@aishah-dot/ui": "workspace:*",
         "babel-plugin-react-compiler": "^1.0.0",
         "clsx": "^2.1.1",
         "dotenv": "catalog:",
@@ -98,88 +98,88 @@
         "@types/node": "^26.1.2",
         "@types/react": "catalog:",
         "@types/react-dom": "catalog:",
-        "@use-forever/config": "workspace:*",
+        "@aishah-dot/config": "workspace:*",
         "tailwindcss": "catalog:",
         "typescript": "catalog:",
       },
     },
     "packages/api": {
-      "name": "@use-forever/api",
+      "name": "@aishah-dot/api",
       "dependencies": {
         "@firecrawl/anydoc": "^0.1.5",
         "@trpc/client": "catalog:",
         "@trpc/server": "catalog:",
-        "@use-forever/auth": "workspace:*",
-        "@use-forever/contracts": "workspace:*",
-        "@use-forever/db": "workspace:*",
-        "@use-forever/env": "workspace:*",
-        "@use-forever/storage": "workspace:*",
+        "@aishah-dot/auth": "workspace:*",
+        "@aishah-dot/contracts": "workspace:*",
+        "@aishah-dot/db": "workspace:*",
+        "@aishah-dot/env": "workspace:*",
+        "@aishah-dot/storage": "workspace:*",
         "ai": "^7.0.52",
         "dotenv": "catalog:",
         "next": "catalog:",
         "zod": "catalog:",
       },
       "devDependencies": {
-        "@use-forever/config": "workspace:*",
+        "@aishah-dot/config": "workspace:*",
         "typescript": "catalog:",
       },
     },
     "packages/auth": {
-      "name": "@use-forever/auth",
+      "name": "@aishah-dot/auth",
       "dependencies": {
         "@better-auth/prisma-adapter": "^1.6.26",
-        "@use-forever/db": "workspace:*",
-        "@use-forever/env": "workspace:*",
+        "@aishah-dot/db": "workspace:*",
+        "@aishah-dot/env": "workspace:*",
         "better-auth": "^1.6.26",
       },
       "devDependencies": {
-        "@use-forever/config": "workspace:*",
+        "@aishah-dot/config": "workspace:*",
         "typescript": "catalog:",
       },
     },
     "packages/config": {
-      "name": "@use-forever/config",
+      "name": "@aishah-dot/config",
       "version": "0.0.0",
     },
     "packages/contracts": {
-      "name": "@use-forever/contracts",
+      "name": "@aishah-dot/contracts",
       "dependencies": {
         "zod": "catalog:",
       },
       "devDependencies": {
-        "@use-forever/config": "workspace:*",
+        "@aishah-dot/config": "workspace:*",
         "typescript": "catalog:",
       },
     },
     "packages/db": {
-      "name": "@use-forever/db",
+      "name": "@aishah-dot/db",
       "dependencies": {
         "@neondatabase/serverless": "^1.1.0",
         "@prisma/adapter-neon": "^7.9.1",
         "@prisma/client": "catalog:",
-        "@use-forever/env": "workspace:*",
+        "@aishah-dot/env": "workspace:*",
         "dotenv": "catalog:",
         "zod": "catalog:",
       },
       "devDependencies": {
-        "@use-forever/config": "workspace:*",
+        "@aishah-dot/config": "workspace:*",
         "prisma": "^7.9.1",
         "typescript": "catalog:",
       },
     },
     "packages/email": {
-      "name": "@use-forever/email",
+      "name": "@aishah-dot/email",
       "dependencies": {
         "@opencoredev/email-sdk": "^1.1.0",
-        "@use-forever/env": "workspace:*",
+        "@aishah-dot/env": "workspace:*",
       },
       "devDependencies": {
-        "@use-forever/config": "workspace:*",
+        "@aishah-dot/config": "workspace:*",
         "typescript": "catalog:",
       },
     },
     "packages/env": {
-      "name": "@use-forever/env",
+      "name": "@aishah-dot/env",
       "version": "0.0.0",
       "dependencies": {
         "@t3-oss/env-core": "^0.13.11",
@@ -189,36 +189,36 @@
       },
       "devDependencies": {
         "@types/node": "^26.1.2",
-        "@use-forever/config": "workspace:*",
+        "@aishah-dot/config": "workspace:*",
         "typescript": "catalog:",
       },
     },
     "packages/next-config": {
-      "name": "@use-forever/next-config",
+      "name": "@aishah-dot/next-config",
       "dependencies": {
         "next": "catalog:",
       },
       "devDependencies": {
-        "@use-forever/config": "workspace:*",
+        "@aishah-dot/config": "workspace:*",
         "typescript": "catalog:",
       },
     },
     "packages/storage": {
-      "name": "@use-forever/storage",
+      "name": "@aishah-dot/storage",
       "dependencies": {
         "@aws-sdk/client-s3": "^3.888.0",
         "@aws-sdk/s3-presigned-post": "^3.888.0",
         "@aws-sdk/s3-request-presigner": "^3.888.0",
-        "@use-forever/env": "workspace:*",
+        "@aishah-dot/env": "workspace:*",
         "files-sdk": "^2.2.3",
       },
       "devDependencies": {
-        "@use-forever/config": "workspace:*",
+        "@aishah-dot/config": "workspace:*",
         "typescript": "catalog:",
       },
     },
     "packages/ui": {
-      "name": "@use-forever/ui",
+      "name": "@aishah-dot/ui",
       "version": "0.0.0",
       "dependencies": {
         "@base-ui/react": "^1.6.0",
@@ -255,20 +255,20 @@
         "@tailwindcss/postcss": "catalog:",
         "@types/react": "catalog:",
         "@types/react-dom": "catalog:",
-        "@use-forever/config": "workspace:*",
+        "@aishah-dot/config": "workspace:*",
         "tailwindcss": "catalog:",
         "typescript": "catalog:",
       },
     },
     "packages/utils": {
-      "name": "@use-forever/utils",
+      "name": "@aishah-dot/utils",
       "version": "0.0.0",
       "dependencies": {
         "date-fns": "^4.4.0",
         "slugify": "^1.6.9",
       },
       "devDependencies": {
-        "@use-forever/config": "workspace:*",
+        "@aishah-dot/config": "workspace:*",
         "typescript": "catalog:",
       },
     },
@@ -1327,27 +1327,27 @@
 
     "@upstash/redis": ["@upstash/redis@1.38.2", "", { "dependencies": { "uncrypto": "^0.1.3" } }, "sha512-RZ+JaRCVIS+ZTGnjOnDMr+/0aqDxsBb5rV6aW+Pys4SGELwr5lwE3UbLHRCHqMQ5Ulxj0b/CFBHfbmE175Otog=="],
 
-    "@use-forever/api": ["@use-forever/api@workspace:packages/api"],
+    "@aishah-dot/api": ["@aishah-dot/api@workspace:packages/api"],
 
-    "@use-forever/auth": ["@use-forever/auth@workspace:packages/auth"],
+    "@aishah-dot/auth": ["@aishah-dot/auth@workspace:packages/auth"],
 
-    "@use-forever/config": ["@use-forever/config@workspace:packages/config"],
+    "@aishah-dot/config": ["@aishah-dot/config@workspace:packages/config"],
 
-    "@use-forever/contracts": ["@use-forever/contracts@workspace:packages/contracts"],
+    "@aishah-dot/contracts": ["@aishah-dot/contracts@workspace:packages/contracts"],
 
-    "@use-forever/db": ["@use-forever/db@workspace:packages/db"],
+    "@aishah-dot/db": ["@aishah-dot/db@workspace:packages/db"],
 
-    "@use-forever/email": ["@use-forever/email@workspace:packages/email"],
+    "@aishah-dot/email": ["@aishah-dot/email@workspace:packages/email"],
 
-    "@use-forever/env": ["@use-forever/env@workspace:packages/env"],
+    "@aishah-dot/env": ["@aishah-dot/env@workspace:packages/env"],
 
-    "@use-forever/next-config": ["@use-forever/next-config@workspace:packages/next-config"],
+    "@aishah-dot/next-config": ["@aishah-dot/next-config@workspace:packages/next-config"],
 
-    "@use-forever/storage": ["@use-forever/storage@workspace:packages/storage"],
+    "@aishah-dot/storage": ["@aishah-dot/storage@workspace:packages/storage"],
 
-    "@use-forever/ui": ["@use-forever/ui@workspace:packages/ui"],
+    "@aishah-dot/ui": ["@aishah-dot/ui@workspace:packages/ui"],
 
-    "@use-forever/utils": ["@use-forever/utils@workspace:packages/utils"],
+    "@aishah-dot/utils": ["@aishah-dot/utils@workspace:packages/utils"],
 
     "@vercel/analytics": ["@vercel/analytics@2.0.1", "", { "peerDependencies": { "@remix-run/react": "^2", "@sveltejs/kit": "^1 || ^2", "next": ">= 13", "nuxt": ">= 3", "react": "^18 || ^19 || ^19.0.0-rc", "svelte": ">= 4", "vue": "^3", "vue-router": "^4" }, "optionalPeers": ["@remix-run/react", "@sveltejs/kit", "next", "nuxt", "react", "svelte", "vue", "vue-router"] }, "sha512-MTQG6V9qQrt1tsDeF+2Uoo5aPjqbVPys1xvnIftXSJYG2SrwXRHnqEvVoYID7BTruDz4lCd2Z7rM1BdkUehk2g=="],
 
@@ -3159,25 +3159,25 @@
 
     "@types/ws/@types/node": ["@types/node@26.1.2", "", { "dependencies": { "undici-types": "~8.3.0" } }, "sha512-Vu4a5UFA9rIIFJ7rB/Vaafh9lrCQszopTCx6KjFboXTGQbPNasehVR5TEiithSDGyd1DEiUByggTZsg8jukeIg=="],
 
-    "@use-forever/api/typescript": ["typescript@6.0.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw=="],
+    "@aishah-dot/api/typescript": ["typescript@6.0.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw=="],
 
-    "@use-forever/auth/typescript": ["typescript@6.0.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw=="],
+    "@aishah-dot/auth/typescript": ["typescript@6.0.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw=="],
 
-    "@use-forever/contracts/typescript": ["typescript@6.0.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw=="],
+    "@aishah-dot/contracts/typescript": ["typescript@6.0.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw=="],
 
-    "@use-forever/db/typescript": ["typescript@6.0.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw=="],
+    "@aishah-dot/db/typescript": ["typescript@6.0.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw=="],
 
-    "@use-forever/email/typescript": ["typescript@6.0.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw=="],
+    "@aishah-dot/email/typescript": ["typescript@6.0.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw=="],
 
-    "@use-forever/env/typescript": ["typescript@6.0.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw=="],
+    "@aishah-dot/env/typescript": ["typescript@6.0.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw=="],
 
-    "@use-forever/next-config/typescript": ["typescript@6.0.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw=="],
+    "@aishah-dot/next-config/typescript": ["typescript@6.0.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw=="],
 
-    "@use-forever/storage/typescript": ["typescript@6.0.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw=="],
+    "@aishah-dot/storage/typescript": ["typescript@6.0.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw=="],
 
-    "@use-forever/ui/typescript": ["typescript@6.0.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw=="],
+    "@aishah-dot/ui/typescript": ["typescript@6.0.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw=="],
 
-    "@use-forever/utils/typescript": ["typescript@6.0.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw=="],
+    "@aishah-dot/utils/typescript": ["typescript@6.0.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw=="],
 
     "@vercel/cli-config/zod": ["zod@4.1.11", "", {}, "sha512-WPsqwxITS2tzx1bzhIKsEs19ABD5vmCVa4xBo2tq/SrV4RNZtfws1EnCWQXM6yh8bD08a1idvkB5MZSBiZsjwg=="],
 

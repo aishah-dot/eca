@@ -1,5 +1,5 @@
-import { integrationHealthReportSchema, workspaceSchema } from "@use-forever/contracts";
-import prisma from "@use-forever/db";
+import { integrationHealthReportSchema, workspaceSchema } from "@aishah-dot/contracts";
+import prisma from "@aishah-dot/db";
 import { tenantProcedure, router } from "../../../index";
 import { getIntegrationHealth, getIntegrationStatus } from "../../../services/integrations";
 import { telegramIntegrationProcedures } from "./telegram";

@@ -1,5 +1,5 @@
 import { telegramChannel } from "eve/channels/telegram";
-import { getLatestTelegramCredentials } from "@use-forever/api/services/integrations";
+import { getLatestTelegramCredentials } from "@aishah-dot/api/services/integrations";
 import { ensureTelegramCustomerForState } from "../lib/customers";
 
 async function requireTelegramIntegration() {

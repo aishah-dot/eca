@@ -1,4 +1,4 @@
-import { meResponseSchema } from "@use-forever/contracts";
+import { meResponseSchema } from "@aishah-dot/contracts";
 import { protectedProcedure } from "../../index";
 
 export const me = protectedProcedure

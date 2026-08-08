@@ -1,4 +1,4 @@
-import { getWorkspaceById } from "@use-forever/api/services/workspaces";
+import { getWorkspaceById } from "@aishah-dot/api/services/workspaces";
 import type { ToolContext } from "eve/tools";
 
 export type KnowledgeOwnerResolution =

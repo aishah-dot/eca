@@ -1,7 +1,7 @@
-import type { IntegrationProvider } from "@use-forever/contracts";
-import { integrationCredentialSchema } from "@use-forever/contracts";
-import prisma from "@use-forever/db";
-import { env } from "@use-forever/env/server";
+import type { IntegrationProvider } from "@aishah-dot/contracts";
+import { integrationCredentialSchema } from "@aishah-dot/contracts";
+import prisma from "@aishah-dot/db";
+import { env } from "@aishah-dot/env/server";
 import { createCipheriv, createDecipheriv, randomBytes } from "node:crypto";
 import { z } from "zod";
 

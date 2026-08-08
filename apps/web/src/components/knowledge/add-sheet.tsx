@@ -4,10 +4,7 @@ import { useForm } from "@tanstack/react-form";
 import { FileTextIcon, GlobeIcon, UploadIcon, XIcon } from "lucide-react";
 import { useRef, useState } from "react";
 import { useMutation } from "@tanstack/react-query";
-import {
-	createKnowledgeSourceInputSchema,
-	knowledgeSourceNameSchema,
-} from "@use-forever/contracts";
+import { createKnowledgeSourceInputSchema, knowledgeSourceNameSchema } from "@aishah-dot/contracts";
 import {
 	Attachment,
 	AttachmentAction,
@@ -17,21 +14,21 @@ import {
 	AttachmentMedia,
 	AttachmentTitle,
 	AttachmentTrigger,
-} from "@use-forever/ui/components/attachment";
-import { Button } from "@use-forever/ui/components/button";
+} from "@aishah-dot/ui/components/attachment";
+import { Button } from "@aishah-dot/ui/components/button";
 import {
 	Field,
 	FieldDescription,
 	FieldError,
 	FieldGroup,
 	FieldLabel,
-} from "@use-forever/ui/components/field";
+} from "@aishah-dot/ui/components/field";
 import {
 	InputGroup,
 	InputGroupAddon,
 	InputGroupInput,
 	InputGroupText,
-} from "@use-forever/ui/components/input-group";
+} from "@aishah-dot/ui/components/input-group";
 import {
 	Sheet,
 	SheetClose,
@@ -41,8 +38,8 @@ import {
 	SheetHeader,
 	SheetTitle,
 	SheetTrigger,
-} from "@use-forever/ui/components/sheet";
-import { ToggleGroup, ToggleGroupItem } from "@use-forever/ui/components/toggle-group";
+} from "@aishah-dot/ui/components/sheet";
+import { ToggleGroup, ToggleGroupItem } from "@aishah-dot/ui/components/toggle-group";
 import { toast } from "sonner";
 import { z } from "zod";
 import { queryClient, trpc } from "@/utils/trpc";

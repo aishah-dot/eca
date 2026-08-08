@@ -3,8 +3,8 @@
 import { useQuery } from "@tanstack/react-query";
 import { PageSection } from "@/components/general/page-section";
 import { trpc } from "@/utils/trpc";
-import { Card, CardContent } from "@use-forever/ui/components/card";
-import { Skeleton } from "@use-forever/ui/components/skeleton";
+import { Card, CardContent } from "@aishah-dot/ui/components/card";
+import { Skeleton } from "@aishah-dot/ui/components/skeleton";
 
 export default function WorkspacePage() {
 	const { data, isLoading } = useQuery(trpc.workspace.get.queryOptions());

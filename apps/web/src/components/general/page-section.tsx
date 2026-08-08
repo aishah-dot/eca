@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { cn } from "@use-forever/ui/lib/utils";
+import { cn } from "@aishah-dot/ui/lib/utils";
 
 type PageSectionProps = {
 	children: ReactNode;

@@ -1,8 +1,8 @@
-import { customerNameSchema } from "@use-forever/contracts";
+import { customerNameSchema } from "@aishah-dot/contracts";
 import {
 	ensureChannelCustomerForUser,
 	updateChannelCustomerNameForUser,
-} from "@use-forever/api/services/customers";
+} from "@aishah-dot/api/services/customers";
 import { defineTool } from "eve/tools";
 import { z } from "zod";
 import { resolveCustomerProfileContext } from "../lib/customer-profile-context";

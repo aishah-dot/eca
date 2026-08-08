@@ -1,5 +1,5 @@
-import { upsertTwilioIntegrationInputSchema, workspaceSchema } from "@use-forever/contracts";
-import prisma from "@use-forever/db";
+import { upsertTwilioIntegrationInputSchema, workspaceSchema } from "@aishah-dot/contracts";
+import prisma from "@aishah-dot/db";
 import { tenantProcedure } from "../../../index";
 import {
 	deleteIntegration,

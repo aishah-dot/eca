@@ -1,5 +1,5 @@
-import { env } from "@use-forever/env/server";
-import { createNextConfig } from "@use-forever/next-config";
+import { env } from "@aishah-dot/env/server";
+import { createNextConfig } from "@aishah-dot/next-config";
 
 const nextConfig = createNextConfig({
 	eveAgentUrl: env.EVE_AGENT_URL,

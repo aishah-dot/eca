@@ -1,11 +1,11 @@
 {
-	"extends": "@use-forever/config/tsconfig.base.json",
+	"extends": "@aishah-dot/config/tsconfig.base.json",
 	"compilerOptions": {
 		"jsx": "react-jsx",
 		"lib": ["ESNext", "DOM", "DOM.Iterable"],
 		"types": [],
 		"paths": {
-			"@use-forever/ui/*": ["./src/*"]
+			"@aishah-dot/ui/*": ["./src/*"]
 		},
 		"strictNullChecks": true
 	},

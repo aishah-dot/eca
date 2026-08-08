@@ -1,6 +1,6 @@
-# use-forever
+# aishah-dot
 
-`use-forever` is a TypeScript monorepo powered by Bun + Turborepo.
+`aishah-dot` is a TypeScript monorepo powered by Bun + Turborepo.
 It includes a Next.js web app, a Blume docs app, type-safe tRPC APIs, shared contracts, and Eve-based AI agent apps.
 
 ## Stack
@@ -39,7 +39,7 @@ cp apps/web/.env.example apps/web/.env
 3. Update `apps/web/.env` with your PostgreSQL credentials and app URL:
 
 ```env
-NEXT_PUBLIC_APP_URL=use-forever.vercel.app
+NEXT_PUBLIC_APP_URL=aishah-dot.vercel.app
 ```
 
 4. Push Prisma schema to your database:
@@ -59,7 +59,7 @@ The web app runs at [http://localhost:3001](http://localhost:3001).
 ## Workspace Layout
 
 ```text
-use-forever/
+aishah-dot/
 ├── apps/
 │   ├── web/         # Next.js web app
 │   ├── docs/        # Blume docs app

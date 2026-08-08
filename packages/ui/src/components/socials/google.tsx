@@ -1,6 +1,6 @@
 import type { ComponentProps } from "react";
 
-import { cn } from "@use-forever/ui/lib/utils";
+import { cn } from "@aishah-dot/ui/lib/utils";
 
 type GoogleIconProps = ComponentProps<"svg">;
 

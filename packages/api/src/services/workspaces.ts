@@ -1,5 +1,5 @@
-import prisma from "@use-forever/db";
-import { toSlug } from "@use-forever/utils";
+import prisma from "@aishah-dot/db";
+import { toSlug } from "@aishah-dot/utils";
 import { TRPCError } from "@trpc/server";
 import { randomUUID } from "node:crypto";
 

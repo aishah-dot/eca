@@ -1,6 +1,6 @@
 import { createEmailClient } from "@opencoredev/email-sdk";
 import { resend } from "@opencoredev/email-sdk/resend";
-import { env } from "@use-forever/env/server";
+import { env } from "@aishah-dot/env/server";
 
 function getResendApiKey() {
 	const apiKey = env.RESEND_API_KEY as string;

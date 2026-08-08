@@ -1,12 +1,12 @@
 "use client";
 
-import { Button } from "@use-forever/ui/components/button";
+import { Button } from "@aishah-dot/ui/components/button";
 import {
 	DropdownMenu,
 	DropdownMenuContent,
 	DropdownMenuItem,
 	DropdownMenuTrigger,
-} from "@use-forever/ui/components/dropdown-menu";
+} from "@aishah-dot/ui/components/dropdown-menu";
 import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
 import { useCallback } from "react";

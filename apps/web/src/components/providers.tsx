@@ -1,6 +1,6 @@
 "use client";
 
-import { Toaster } from "@use-forever/ui/components/sonner";
+import { Toaster } from "@aishah-dot/ui/components/sonner";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { NuqsAdapter } from "nuqs/adapters/next/app";
 // import { ReactQueryDevtools } from "@tanstack/react-query-devtools";

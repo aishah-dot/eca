@@ -1,5 +1,5 @@
-import { knowledgeSearchResultsSchema, searchKnowledgeInputSchema } from "@use-forever/contracts";
-import { searchKnowledgeForUser } from "@use-forever/api/services/knowledge";
+import { knowledgeSearchResultsSchema, searchKnowledgeInputSchema } from "@aishah-dot/contracts";
+import { searchKnowledgeForUser } from "@aishah-dot/api/services/knowledge";
 import { defineTool } from "eve/tools";
 import { z } from "zod";
 import { resolveKnowledgeOwnerUserId } from "../lib/knowledge";

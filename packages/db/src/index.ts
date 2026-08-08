@@ -1,4 +1,4 @@
-import { env } from "@use-forever/env/server";
+import { env } from "@aishah-dot/env/server";
 import { PrismaNeon } from "@prisma/adapter-neon";
 
 import { PrismaClient } from "../prisma/generated/client";

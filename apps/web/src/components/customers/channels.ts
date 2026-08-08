@@ -1,4 +1,4 @@
-import { customerChannelValues } from "@use-forever/contracts";
+import { customerChannelValues } from "@aishah-dot/contracts";
 
 export type CustomerChannel = (typeof customerChannelValues)[number];
 

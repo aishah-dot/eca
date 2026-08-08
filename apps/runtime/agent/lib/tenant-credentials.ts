@@ -1,5 +1,5 @@
-import { getIntegrationCredentials } from "@use-forever/api/services/integrations";
-import type { IntegrationProvider } from "@use-forever/contracts";
+import { getIntegrationCredentials } from "@aishah-dot/api/services/integrations";
+import type { IntegrationProvider } from "@aishah-dot/contracts";
 
 export interface TenantCredentialProvider {
 	getCredentials(

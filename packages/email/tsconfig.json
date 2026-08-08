@@ -1,5 +1,5 @@
 {
-	"extends": "@use-forever/config/tsconfig.base.json",
+	"extends": "@aishah-dot/config/tsconfig.base.json",
 	"compilerOptions": {
 		"composite": true,
 		"declaration": true,

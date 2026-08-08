@@ -1,5 +1,5 @@
 {
-	"name": "@use-forever/auth",
+	"name": "@aishah-dot/auth",
 	"type": "module",
 	"exports": {
 		".": {
@@ -13,13 +13,13 @@
 		"check-types": "tsc --noEmit"
 	},
 	"dependencies": {
+		"@aishah-dot/db": "workspace:*",
+		"@aishah-dot/env": "workspace:*",
 		"@better-auth/prisma-adapter": "^1.6.26",
-		"@use-forever/db": "workspace:*",
-		"@use-forever/env": "workspace:*",
 		"better-auth": "^1.6.26"
 	},
 	"devDependencies": {
-		"@use-forever/config": "workspace:*",
+		"@aishah-dot/config": "workspace:*",
 		"typescript": "catalog:"
 	}
 }

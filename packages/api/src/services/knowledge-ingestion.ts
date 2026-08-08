@@ -1,8 +1,8 @@
 import { embedMany } from "ai";
 import { SentenceSplitter } from "llamaindex";
-import prisma from "@use-forever/db";
-import { env } from "@use-forever/env/server";
-import { getStorageClient } from "@use-forever/storage";
+import prisma from "@aishah-dot/db";
+import { env } from "@aishah-dot/env/server";
+import { getStorageClient } from "@aishah-dot/storage";
 import { createHash } from "node:crypto";
 
 const EMBEDDING_MODEL = "openai/text-embedding-3-small";

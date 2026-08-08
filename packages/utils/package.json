@@ -1,5 +1,5 @@
 {
-	"name": "@use-forever/utils",
+	"name": "@aishah-dot/utils",
 	"version": "0.0.0",
 	"private": true,
 	"type": "module",
@@ -22,7 +22,7 @@
 		"slugify": "^1.6.9"
 	},
 	"devDependencies": {
-		"@use-forever/config": "workspace:*",
+		"@aishah-dot/config": "workspace:*",
 		"typescript": "catalog:"
 	}
 }

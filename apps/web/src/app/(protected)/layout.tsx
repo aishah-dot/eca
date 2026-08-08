@@ -1,5 +1,5 @@
-import { Separator } from "@use-forever/ui/components/separator";
-import { SidebarInset, SidebarProvider, SidebarTrigger } from "@use-forever/ui/components/sidebar";
+import { Separator } from "@aishah-dot/ui/components/separator";
+import { SidebarInset, SidebarProvider, SidebarTrigger } from "@aishah-dot/ui/components/sidebar";
 import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 import { Suspense } from "react";
@@ -8,7 +8,7 @@ import { AppSidebar } from "@/components/app-sidebar";
 import { ModeToggle } from "@/components/mode-toggle";
 import { RouteTitle } from "@/components/route-title";
 import { auth } from "@/lib/auth";
-// import { Button } from "@use-forever/ui/components/button";
+// import { Button } from "@aishah-dot/ui/components/button";
 
 type ProtectedLayoutProps = {
 	children: React.ReactNode;

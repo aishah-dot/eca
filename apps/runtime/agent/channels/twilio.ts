@@ -1,5 +1,5 @@
 import { twilioChannel } from "eve/channels/twilio";
-import { getLatestTwilioCredentials } from "@use-forever/api/services/integrations";
+import { getLatestTwilioCredentials } from "@aishah-dot/api/services/integrations";
 
 async function requireTwilioIntegration() {
 	const integration = await getLatestTwilioCredentials();

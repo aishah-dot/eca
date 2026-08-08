@@ -1,7 +1,7 @@
 "use client";
 
 import { Drawer as DrawerPrimitive } from "@base-ui/react/drawer";
-import { cn } from "@use-forever/ui/lib/utils";
+import { cn } from "@aishah-dot/ui/lib/utils";
 import { type ComponentProps, createContext, useContext, useMemo } from "react";
 
 interface DrawerContextProps {

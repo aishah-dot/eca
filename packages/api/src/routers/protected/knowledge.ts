@@ -7,8 +7,8 @@ import {
 	knowledgeSourcesSchema,
 	resyncKnowledgeSourceInputSchema,
 	searchKnowledgeInputSchema,
-} from "@use-forever/contracts";
-import prisma from "@use-forever/db";
+} from "@aishah-dot/contracts";
+import prisma from "@aishah-dot/db";
 import { TRPCError } from "@trpc/server";
 import { protectedProcedure, router } from "../../index";
 import { processKnowledgeIngestionJob } from "../../services/knowledge-ingestion";

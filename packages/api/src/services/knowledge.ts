@@ -1,6 +1,6 @@
-import type { KnowledgeSearchResult, KnowledgeSource } from "@use-forever/contracts";
+import type { KnowledgeSearchResult, KnowledgeSource } from "@aishah-dot/contracts";
 import { embed } from "ai";
-import prisma from "@use-forever/db";
+import prisma from "@aishah-dot/db";
 
 const EMBEDDING_MODEL = "openai/text-embedding-3-small";
 

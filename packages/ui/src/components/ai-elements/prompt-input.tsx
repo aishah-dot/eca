@@ -8,34 +8,34 @@ import {
 	CommandItem,
 	CommandList,
 	CommandSeparator,
-} from "@use-forever/ui/components/command";
+} from "@aishah-dot/ui/components/command";
 import {
 	DropdownMenu,
 	DropdownMenuContent,
 	DropdownMenuItem,
 	DropdownMenuTrigger,
-} from "@use-forever/ui/components/dropdown-menu";
+} from "@aishah-dot/ui/components/dropdown-menu";
 import {
 	HoverCard,
 	HoverCardContent,
 	HoverCardTrigger,
-} from "@use-forever/ui/components/hover-card";
+} from "@aishah-dot/ui/components/hover-card";
 import {
 	InputGroup,
 	InputGroupAddon,
 	InputGroupButton,
 	InputGroupTextarea,
-} from "@use-forever/ui/components/input-group";
+} from "@aishah-dot/ui/components/input-group";
 import {
 	Select,
 	SelectContent,
 	SelectItem,
 	SelectTrigger,
 	SelectValue,
-} from "@use-forever/ui/components/select";
-import { Spinner } from "@use-forever/ui/components/spinner";
-import { Tooltip, TooltipContent, TooltipTrigger } from "@use-forever/ui/components/tooltip";
-import { cn } from "@use-forever/ui/lib/utils";
+} from "@aishah-dot/ui/components/select";
+import { Spinner } from "@aishah-dot/ui/components/spinner";
+import { Tooltip, TooltipContent, TooltipTrigger } from "@aishah-dot/ui/components/tooltip";
+import { cn } from "@aishah-dot/ui/lib/utils";
 import type { ChatStatus, FileUIPart, SourceDocumentUIPart } from "ai";
 import { ArrowUpIcon, ImageIcon, Monitor, PlusIcon, SquareIcon, XIcon } from "lucide-react";
 import { nanoid } from "nanoid";

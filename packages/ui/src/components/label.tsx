@@ -1,6 +1,6 @@
 "use client";
 
-import { cn } from "@use-forever/ui/lib/utils";
+import { cn } from "@aishah-dot/ui/lib/utils";
 import type { ComponentProps } from "react";
 
 function Label({ className, children, htmlFor, ...props }: ComponentProps<"label">) {

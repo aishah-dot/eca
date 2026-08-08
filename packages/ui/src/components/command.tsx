@@ -6,10 +6,10 @@ import {
 	DialogDescription,
 	DialogHeader,
 	DialogTitle,
-} from "@use-forever/ui/components/dialog";
-import { InputGroup, InputGroupAddon } from "@use-forever/ui/components/input-group";
+} from "@aishah-dot/ui/components/dialog";
+import { InputGroup, InputGroupAddon } from "@aishah-dot/ui/components/input-group";
 
-import { cn } from "@use-forever/ui/lib/utils";
+import { cn } from "@aishah-dot/ui/lib/utils";
 import { Command as CommandPrimitive } from "cmdk";
 import { CheckIcon, SearchIcon } from "lucide-react";
 import type * as React from "react";

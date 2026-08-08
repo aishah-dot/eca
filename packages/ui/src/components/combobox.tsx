@@ -1,14 +1,14 @@
 "use client";
 
 import { Combobox as ComboboxPrimitive } from "@base-ui/react";
-import { Button } from "@use-forever/ui/components/button";
+import { Button } from "@aishah-dot/ui/components/button";
 import {
 	InputGroup,
 	InputGroupAddon,
 	InputGroupButton,
 	InputGroupInput,
-} from "@use-forever/ui/components/input-group";
-import { cn } from "@use-forever/ui/lib/utils";
+} from "@aishah-dot/ui/components/input-group";
+import { cn } from "@aishah-dot/ui/lib/utils";
 import { CheckIcon, ChevronDownIcon, XIcon } from "lucide-react";
 import { useRef } from "react";
 

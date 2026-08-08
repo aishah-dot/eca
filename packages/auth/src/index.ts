@@ -1,5 +1,5 @@
-import prisma from "@use-forever/db";
-import { env } from "@use-forever/env/server";
+import prisma from "@aishah-dot/db";
+import { env } from "@aishah-dot/env/server";
 import { prismaAdapter } from "@better-auth/prisma-adapter";
 import { betterAuth } from "better-auth";
 export { toNextJsHandler } from "better-auth/next-js";

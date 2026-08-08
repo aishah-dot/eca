@@ -9,19 +9,19 @@
 		"start": "next start"
 	},
 	"dependencies": {
+		"@aishah-dot/api": "workspace:*",
+		"@aishah-dot/auth": "workspace:*",
+		"@aishah-dot/db": "workspace:*",
+		"@aishah-dot/env": "workspace:*",
+		"@aishah-dot/next-config": "workspace:*",
+		"@aishah-dot/storage": "workspace:*",
+		"@aishah-dot/ui": "workspace:*",
 		"@prisma/client": "catalog:",
 		"@swc/helpers": "^0.5.23",
 		"@tanstack/react-query": "^5.101.4",
 		"@trpc/client": "catalog:",
 		"@trpc/server": "catalog:",
 		"@trpc/tanstack-react-query": "^11.18.0",
-		"@use-forever/api": "workspace:*",
-		"@use-forever/auth": "workspace:*",
-		"@use-forever/db": "workspace:*",
-		"@use-forever/env": "workspace:*",
-		"@use-forever/next-config": "workspace:*",
-		"@use-forever/storage": "workspace:*",
-		"@use-forever/ui": "workspace:*",
 		"babel-plugin-react-compiler": "^1.0.0",
 		"clsx": "^2.1.1",
 		"dotenv": "catalog:",
@@ -35,12 +35,12 @@
 		"zod": "catalog:"
 	},
 	"devDependencies": {
+		"@aishah-dot/config": "workspace:*",
 		"@tailwindcss/postcss": "catalog:",
 		"@tanstack/react-query-devtools": "^5.101.4",
 		"@types/node": "^26.1.2",
 		"@types/react": "catalog:",
 		"@types/react-dom": "catalog:",
-		"@use-forever/config": "workspace:*",
 		"tailwindcss": "catalog:",
 		"typescript": "catalog:"
 	}

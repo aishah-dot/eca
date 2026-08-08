@@ -8,7 +8,7 @@
 		"doctor": "blume doctor"
 	},
 	"dependencies": {
-		"@use-forever/env": "workspace:*",
+		"@aishah-dot/env": "workspace:*",
 		"blume": "^1.3.1"
 	}
 }
