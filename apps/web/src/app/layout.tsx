@@ -19,8 +19,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	description: "use-forever",
-	title: "use-forever",
+	description: "Aishah Dot AI is a platform for creating and sharing AI agents.",
+	title: "Aishah Dot AI",
 };
 
 export default function RootLayout({
