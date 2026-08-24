@@ -16,7 +16,7 @@
 		"@aishah-dot/db": "workspace:*",
 		"@aishah-dot/env": "workspace:*",
 		"@aishah-dot/storage": "workspace:*",
-		"@firecrawl/anydoc": "^0.1.5",
+		"@firecrawl/anydoc": "^0.2.3",
 		"@trpc/client": "catalog:",
 		"@trpc/server": "catalog:",
 		"ai": "^7.0.52",
