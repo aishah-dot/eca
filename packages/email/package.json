@@ -11,7 +11,7 @@
 	},
 	"dependencies": {
 		"@aishah-dot/env": "workspace:*",
-		"@opencoredev/email-sdk": "^1.1.0"
+		"@opencoredev/email-sdk": "^3.0.0"
 	},
 	"devDependencies": {
 		"@aishah-dot/config": "workspace:*",
