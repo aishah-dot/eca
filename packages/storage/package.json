@@ -14,7 +14,7 @@
 		"@aws-sdk/client-s3": "^3.888.0",
 		"@aws-sdk/s3-presigned-post": "^3.888.0",
 		"@aws-sdk/s3-request-presigner": "^3.888.0",
-		"files-sdk": "^2.2.3"
+		"files-sdk": "^3.1.1"
 	},
 	"devDependencies": {
 		"@aishah-dot/config": "workspace:*",
