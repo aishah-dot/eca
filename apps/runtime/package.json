@@ -21,7 +21,7 @@
 		"@chat-adapter/state-redis": "^4.36.0",
 		"@chat-adapter/whatsapp": "^4.36.0",
 		"@resend/chat-sdk-adapter": "^0.2.2",
-		"@upstash/agentkit-eve-extension": "^0.4.0",
+		"@upstash/agentkit-eve-extension": "^0.17.0",
 		"@vercel/connect": ">=0.6.0",
 		"chat": "^4.36.0",
 		"eve": "^0.30.6",
